@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from image_board.views import Board
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', Board.as_view())    # this is the index route because there is no route in quotes
 ]
