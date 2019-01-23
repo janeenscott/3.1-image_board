@@ -9,4 +9,9 @@ go here
 
 // Six data types that are primitives:
 
-console.log('hey')
+* boolean
+    * true; false; 10 > 5
+    * undefined evaluates to false
+    * null evaluates to false
+    * 
+
