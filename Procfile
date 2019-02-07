@@ -1,1 +1,1 @@
-web: gunicorn conf.wsgi
+web: gunicorn django_image_board.wsgi
