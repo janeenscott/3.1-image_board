@@ -41,7 +41,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'imageboardweek31.herokuapp.com',
+    '127.0.0.1',
+    'imageboard31.herokuapp.com',
 ]
 
 
